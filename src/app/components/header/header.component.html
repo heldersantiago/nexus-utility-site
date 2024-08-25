@@ -1,0 +1,16 @@
+<div class="flex justify-between px-[50px] py-7">
+  <div class="flex justify-left">
+    <div class="logo text-white font-bold text-4xl ml-2 mr-2">
+      NEXUS_UTILITY
+    </div>
+    <div class="links flex justify-center text-sky-50 text-sm">
+      <a *ngFor="let link of navLinks" class="m-2" href="{{ link.path }}">{{
+        link.label
+      }}</a>
+    </div>
+  </div>
+  <div class="text-white p-2 flex justify-center gap-2">
+    <a class="" href="">Fale Conosco</a>
+    <a class="" href="">Nexus</a>
+  </div>
+</div>
